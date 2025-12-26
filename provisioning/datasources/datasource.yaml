@@ -1,0 +1,6 @@
+apiVersion: 1
+datasources:
+  - name: ceren-datasource
+    type: cerenaktar-cerendatasource-datasource
+    access: direct
+    editable: true

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "datasource",
+  "name": "Ceren-Datasource",
+  "id": "cerenaktar-cerendatasource-datasource",
+  "metrics": true,
+  "info": {
+    "description": "",
+    "author": {
+      "name": "Cerenaktar"
+    },
+    "keywords": ["datasource"],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [],
+    "screenshots": [],
+    "version": "1.0.8",  
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=11.6.0",
+    "plugins": []
+  }
+}
